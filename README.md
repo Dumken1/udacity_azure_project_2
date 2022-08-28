@@ -85,7 +85,7 @@ Run the make_predict_azure_app.sh bash file to make predictions. ou should have 
 ![log](./Azure2_pictures/log.png)
 
 ### Locust Output
-![locust](./Azure2_pictures/locust.png)
+![locust](./Azure2_pictures/locust_result.png)
 
 ## Enhancements
 
