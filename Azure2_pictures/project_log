@@ -1,0 +1,113 @@
+2022-08-27T14:59:15.591875512Z 
+2022-08-27T14:59:15.591926112Z   _____                               
+2022-08-27T14:59:15.591936212Z   /  _  \ __________ _________   ____  
+2022-08-27T14:59:15.591943812Z  /  /_\  \___   /  |  \_  __ \_/ __ \ 
+2022-08-27T14:59:15.591951512Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2022-08-27T14:59:15.591959312Z \____|__  /_____ \____/ |__|    \___  >
+2022-08-27T14:59:15.591967612Z         \/      \/                  \/ 
+2022-08-27T14:59:15.591975011Z 
+2022-08-27T14:59:15.591981311Z A P P   S E R V I C E   O N   L I N U X
+2022-08-27T14:59:15.591987811Z 
+2022-08-27T14:59:15.591994211Z Documentation: http://aka.ms/webapp-linux
+2022-08-27T14:59:15.592001211Z Python 3.7.12
+2022-08-27T14:59:15.592008611Z Note: Any data outside '/home' is not persisted
+2022-08-27T14:59:16.392469852Z Starting OpenBSD Secure Shell server: sshd.
+2022-08-27T14:59:16.465517545Z App Command Line not configured, will attempt auto-detect
+2022-08-27T14:59:16.729507637Z Starting periodic command scheduler: cron.
+2022-08-27T14:59:16.729546837Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -bindPort 8000
+2022-08-27T14:59:16.831738907Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2022-08-27T14:59:16.837982481Z Build Operation ID: |gsvRGMPRR6A=.ff33482_
+2022-08-27T14:59:16.841113668Z Oryx Version: 0.2.20220308.4, Commit: c92fa6a2d6fc14dc9646f80e2bb2e393a5cdc258, ReleaseTagName: 20220308.4
+2022-08-27T14:59:16.841175868Z Output is compressed. Extracting it...
+2022-08-27T14:59:16.843632158Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8da883b9bf9d6ed'...
+2022-08-27T14:59:33.821767240Z App path is set to '/tmp/8da883b9bf9d6ed'
+2022-08-27T14:59:33.893487418Z Detected an app based on Flask
+2022-08-27T14:59:33.893545918Z Generating `gunicorn` command for 'app:app'
+2022-08-27T14:59:33.969420430Z Writing output script to '/opt/startup/startup.sh'
+2022-08-27T14:59:34.692847960Z Using packages from virtual environment antenv located at /tmp/8da883b9bf9d6ed/antenv.
+2022-08-27T14:59:34.693256463Z Updated PYTHONPATH to ':/opt/startup/app_logs:/opt/startup/code_profiler:/tmp/8da883b9bf9d6ed/antenv/lib/python3.7/site-packages'
+2022-08-27T14:59:36.434782891Z [2022-08-27 14:59:36 +0000] [62] [INFO] Starting gunicorn 20.1.0
+2022-08-27T14:59:36.467944858Z [2022-08-27 14:59:36 +0000] [62] [INFO] Listening at: http://0.0.0.0:8000 (62)
+2022-08-27T14:59:36.468704064Z [2022-08-27 14:59:36 +0000] [62] [INFO] Using worker: sync
+2022-08-27T14:59:36.476880930Z [2022-08-27 14:59:36 +0000] [67] [INFO] Booting worker with pid: 67
+2022-08-27T14:59:45.182402955Z 169.254.129.1 - - [27/Aug/2022:14:59:45 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+
+2022-08-27T15:00:09.053044482Z 169.254.129.1 - - [27/Aug/2022:15:00:09 +0000] "GET / HTTP/1.1" 200 32 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+2022-08-27T15:00:09.411013145Z 169.254.129.1 - - [27/Aug/2022:15:00:09 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "https://dumken.azurewebsites.net/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+
+2022-08-27T15:00:58.319596961Z 169.254.129.1 - - [27/Aug/2022:15:00:58 +0000] "GET / HTTP/1.1" 200 32 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+2022-08-27T15:00:58.332133056Z 169.254.129.1 - - [27/Aug/2022:15:00:58 +0000] "GET / HTTP/1.1" 200 32 "-" "ReadyForRequest/1.0 (LocalCache)"
+2022-08-27T15:00:58.357136540Z 169.254.129.1 - - [27/Aug/2022:15:00:58 +0000] "GET / HTTP/1.1" 200 32 "-" "ReadyForRequest/1.0 (AppInit)"
+2022-08-27T15:00:58.540983098Z 169.254.129.1 - - [27/Aug/2022:15:00:58 +0000] "GET /favicon.ico HTTP/1.1" 404 207 "https://dumken.azurewebsites.net/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
+
+2022-08-27T15:03:59.345167178Z 
+2022-08-27T15:03:59.345220778Z   _____                               
+2022-08-27T15:03:59.345234079Z   /  _  \ __________ _________   ____  
+2022-08-27T15:03:59.345242379Z  /  /_\  \___   /  |  \_  __ \_/ __ \ 
+2022-08-27T15:03:59.345250079Z /    |    \/    /|  |  /|  | \/\  ___/ 
+2022-08-27T15:03:59.345257579Z \____|__  /_____ \____/ |__|    \___  >
+2022-08-27T15:03:59.345265379Z         \/      \/                  \/ 
+2022-08-27T15:03:59.345272579Z 
+2022-08-27T15:03:59.345279779Z A P P   S E R V I C E   O N   L I N U X
+2022-08-27T15:03:59.345286979Z 
+2022-08-27T15:03:59.345293779Z Documentation: http://aka.ms/webapp-linux
+2022-08-27T15:03:59.345301779Z Python 3.7.12
+2022-08-27T15:03:59.345308779Z Note: Any data outside '/home' is not persisted
+2022-08-27T15:04:00.068497448Z Starting OpenBSD Secure Shell server: sshd.
+2022-08-27T15:04:00.209245081Z App Command Line not configured, will attempt auto-detect
+2022-08-27T15:04:00.546905393Z Starting periodic command scheduler: cron.
+2022-08-27T15:04:00.546945893Z Launching oryx with: create-script -appPath /home/site/wwwroot -output /opt/startup/startup.sh -virtualEnvName antenv -defaultApp /opt/defaultsite -bindPort 8000
+2022-08-27T15:04:00.843282726Z Found build manifest file at '/home/site/wwwroot/oryx-manifest.toml'. Deserializing it...
+2022-08-27T15:04:00.852761381Z Build Operation ID: |DPk9aufBOqA=.a6dec149_
+2022-08-27T15:04:00.854246090Z Oryx Version: 0.2.20220308.4, Commit: c92fa6a2d6fc14dc9646f80e2bb2e393a5cdc258, ReleaseTagName: 20220308.4
+2022-08-27T15:04:00.854371191Z Output is compressed. Extracting it...
+2022-08-27T15:04:00.857442608Z Extracting '/home/site/wwwroot/output.tar.gz' to directory '/tmp/8da883cec6b0679'...
+2022-08-27T15:04:13.156543421Z App path is set to '/tmp/8da883cec6b0679'
+2022-08-27T15:04:13.226329538Z Detected an app based on Flask
+2022-08-27T15:04:13.227213544Z Generating `gunicorn` command for 'app:app'
+2022-08-27T15:04:13.313141658Z Writing output script to '/opt/startup/startup.sh'
+2022-08-27T15:04:13.836407687Z Using packages from virtual environment antenv located at /tmp/8da883cec6b0679/antenv.
+2022-08-27T15:04:13.836484387Z Updated PYTHONPATH to ':/opt/startup/app_logs:/opt/startup/code_profiler:/tmp/8da883cec6b0679/antenv/lib/python3.7/site-packages'
+2022-08-27T15:04:15.780597912Z [2022-08-27 15:04:15 +0000] [62] [INFO] Starting gunicorn 20.1.0
+2022-08-27T15:04:15.925814480Z [2022-08-27 15:04:15 +0000] [62] [INFO] Listening at: http://0.0.0.0:8000 (62)
+2022-08-27T15:04:15.925868980Z [2022-08-27 15:04:15 +0000] [62] [INFO] Using worker: sync
+2022-08-27T15:04:15.975977480Z [2022-08-27 15:04:15 +0000] [67] [INFO] Booting worker with pid: 67
+2022-08-27T15:04:28.285457097Z --- Logging error ---
+2022-08-27T15:04:28.285545597Z Traceback (most recent call last):
+2022-08-27T15:04:28.285573097Z   File "/opt/python/3.7.12/lib/python3.7/logging/__init__.py", line 1029, in emit
+2022-08-27T15:04:28.285582297Z     self.flush()
+2022-08-27T15:04:28.285589797Z   File "/opt/python/3.7.12/lib/python3.7/logging/__init__.py", line 1009, in flush
+2022-08-27T15:04:28.285598197Z     self.stream.flush()
+2022-08-27T15:04:28.285604798Z RuntimeError: reentrant call inside <_io.BufferedWriter name='/home/LogFiles/AppServiceAppLogs_Feature_Installer/startup_0.log'>
+2022-08-27T15:04:28.285613298Z Call stack:
+2022-08-27T15:04:28.285619598Z   File "/opt/python/3.7.12/lib/python3.7/threading.py", line 890, in _bootstrap
+2022-08-27T15:04:28.285626998Z     self._bootstrap_inner()
+2022-08-27T15:04:28.285633598Z   File "/opt/python/3.7.12/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+2022-08-27T15:04:28.285640598Z     self.run()
+2022-08-27T15:04:28.285647898Z   File "/opt/python/3.7.12/lib/python3.7/threading.py", line 870, in run
+2022-08-27T15:04:28.285654698Z     self._target(*self._args, **self._kwargs)
+2022-08-27T15:04:28.285661598Z   File "/opt/startup/app_logs/appServiceAppLogs.py", line 89, in workerLogHandlerRegisterer
+2022-08-27T15:04:28.285668698Z     "Waiting for the logs flag to be set")
+2022-08-27T15:04:28.285676998Z Message: 'Waiting for the logs flag to be set'
+2022-08-27T15:04:28.285683798Z Arguments: ()
+2022-08-27T15:04:28.366071787Z 169.254.129.1 - - [27/Aug/2022:15:04:28 +0000] "GET /robots933456.txt HTTP/1.1" 404 207 "-" "HealthCheck/1.0"
+
+2022-08-27T15:08:28.601020517Z /tmp/8da883cec6b0679/antenv/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LinearRegression from version 0.24.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+2022-08-27T15:08:28.601074517Z https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+2022-08-27T15:08:28.601088617Z   UserWarning,
+2022-08-27T15:08:28.601097517Z [2022-08-27 15:08:28,599] INFO in app: JSON payload: %s json_payload
+2022-08-27T15:08:28.624502888Z [2022-08-27 15:08:28,623] INFO in app: inference payload DataFrame: %s inference_payload
+2022-08-27T15:08:28.624669889Z [2022-08-27 15:08:28,623] INFO in app: Scaling Payload: %s payload
+2022-08-27T15:08:28.696120009Z 169.254.129.1 - - [27/Aug/2022:15:08:28 +0000] "POST /predict HTTP/1.1" 200 36 "-" "curl/7.84.0"
+
+2022-08-27T15:12:58.587776223Z /tmp/8da883cec6b0679/antenv/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LinearRegression from version 0.24.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+2022-08-27T15:12:58.587861124Z https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+2022-08-27T15:12:58.587882124Z   UserWarning,
+2022-08-27T15:12:58.587909624Z [2022-08-27 15:12:58,587] INFO in app: JSON payload: %s json_payload
+2022-08-27T15:12:58.592991163Z [2022-08-27 15:12:58,592] INFO in app: inference payload DataFrame: %s inference_payload
+2022-08-27T15:12:58.594152372Z [2022-08-27 15:12:58,593] INFO in app: Scaling Payload: %s payload
+2022-08-27T15:12:58.603844545Z 169.254.129.1 - - [27/Aug/2022:15:12:58 +0000] "POST /predict HTTP/1.1" 200 36 "-" "curl/7.84.0"
+
+2022-08-27T15:13:18.867490400Z 169.254.129.1 - - [27/Aug/2022:15:13:18 +0000] "GET / HTTP/1.1" 200 32 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+2022-08-27T15:13:21.507553054Z 169.254.129.1 - - [27/Aug/2022:15:13:21 +0000] "GET / HTTP/1.1" 200 32 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+
