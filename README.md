@@ -64,7 +64,10 @@ az webapp up --name dumken --resource-group Azuredevops --runtime "PYTHON:3.7"
 ```
  You should have a similar output as shown below 
  
- ![git action](./Azure2_pictures/Webapp_name.png)
+ ![Web_app_name](./Azure2_pictures/Webapp_name.png)
+
+ ![WebApp_portal_view](./Azure2_pictures/webapp_in_portal.png)
+
 
 * Login into your Azure portal and Azure Devops account then follow the process shown in this [Document](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops) to setup your deployment processes and setting up a service connection.
 
